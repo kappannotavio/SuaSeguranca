@@ -14,9 +14,9 @@
 <body>
 
 <!----Abertura do Nav---->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Sua Segurança</a>
+    <a class="navbar-brand" href="index.html">Sua Segurança</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -56,8 +56,8 @@
         </li>
 
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"/>
+      <form class="d-flex" role="search" id="searchForm">
+        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search" id="searchInput">
         <button class="btn btn-outline-light" type="submit">Pesquisar</button>
       </form>
     </div>
@@ -71,21 +71,33 @@
 
 <!---Abertura do container de cards--->
 <div class="container my-5">
-  <div class="row row-cols-1 row-cols-md-4 g-4">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
     
     <!--Card-->
     <div class="col">
       <div class="card h-100">
-        <img src="img/gatoJoia.jpg" class="card-img-top" alt="">
+        <img src="img/imgPhising1.jpg" class="card-img-top" alt="">
         <div class="card-body">
-          <h5 class="card-title">Exemplo jóia de card</h5>
-          <p class="card-text">Descrição de exemplo do card, só pra testar como fica o texto.</p>
-          <a href="#" class="btn btn-warning">Ir pra algum lugar</a>
+          <h5 class="card-title">Golpes com IA e vazamentos de dados crescem no 3º trimestre</h5>
+          <p class="card-text">O avanço da inteligência artificial (IA) tem impulsionado a escala e sofisticação dos crimes digitais. É o que mostra o Relatório de Ameaças do Terceiro Trimestre de 2025 da Gen, empresa global de cibersegurança responsável por marcas como Norton, Avast e LifeLock.</p>
+          <a href="https://www.ecommercebrasil.com.br/noticias/golpes-com-ia-e-vazamentos-de-dados-crescem-no-3o-tri " target="_blank" class="btn btn-warning">Visitar Site</a>
         </div>
       </div>
     </div>
     <!--Fechamento Card-->
- 
+
+    <!--Card-->
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/imgPhising2.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Você já ouviu falar em phishing? Saiba como se proteger deste golpe digital</h5>
+          <p class="card-text">O golpe de phishing é um dos mais antigos e persistentes, e continua fazendo vítimas todos os dias apesar dos avanços na segurança na internet. Esse tipo de fraude digital tem como principal objetivo enganar o usuário para obter informações sensíveis e realizar ações como roubo de dados bancários, CPF, senhas e até redes sociais.</p>
+          <a href="https://www.gazetadopovo.com.br/economia/voce-ja-ouviu-falar-em-phishing-saiba-como-se-proteger-deste-golpe-digital" target="_blank" class="btn btn-warning">Visitar Site</a>
+        </div>
+      </div>
+    </div>
+    <!--Fechamento Card-->
 
     
     
