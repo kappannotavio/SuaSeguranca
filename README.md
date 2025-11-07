@@ -26,7 +26,7 @@ A ação extensionista foi aplicada na empresa **Gama-Log Solução em Comércio
 ## 🚀 Como acessar  
 
 O site pode ser acessado diretamente no navegador.  
-> *(EM DESENVOLVIMENTO).*  
+> *https://kappannotavio.github.io/SuaSeguranca/*  
 
 ---
 
