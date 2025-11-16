@@ -29,9 +29,6 @@
           <a class="nav-link" href="sobreOProjeto.html">O projeto</a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="equipe.html">Equipe</a>
-        </li>
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -51,10 +48,6 @@
           <a class="nav-link" href="dicas.html">Dicas de Proteção</a> 
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="contato.html">Contato</a>
-        </li>
-
       </ul>
       <form class="d-flex" role="search" id="searchForm">
         <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search" id="searchInput">
@@ -66,6 +59,75 @@
 
 <!----Fechamento do Nav---->
 
+<!-- Banner grande (imagem responsiva, sem overlay absoluto) -->
+<div class="container-fluid p-0">
+  <img src="img/bannerIndex.png" alt="Banner - Segurança Digital" class="img-fluid w-100" style="max-height:480px; object-fit:cover;">
+</div>
+
+<!-- Conteúdo principal -->
+<main class="container my-5">
+  <div class="text-center mb-4">
+    <h1 class="display-5 fw-bold">Sua Segurança é Prioridade</h1>
+    <p class="lead text-muted">Aprenda a identificar golpes, proteger seus dados e navegar com mais tranquilidade.</p>
+
+    <div class="d-flex justify-content-center gap-2 mt-3">
+      <a href="dicas.html" class="btn btn-primary btn-lg">Dicas de Proteção</a>
+      <a href="sobreOProjeto.html" class="btn btn-outline-primary btn-lg">Sobre o Projeto</a>
+    </div>
+  </div>
+
+  <!-- Três cards de destaque -->
+  <section class="row g-4">
+    <article class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Phishing</h5>
+          <p class="card-text flex-grow-1">Mensagens e e-mails falsos que tentam roubar suas credenciais — saiba como identificar.</p>
+          <a href="phishing.html" class="btn btn-outline-primary mt-3 align-self-start">Saiba mais</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Golpes Financeiros</h5>
+          <p class="card-text flex-grow-1">PIX falso, boletos adulterados e outras fraudes — como se proteger em transações.</p>
+          <a href="dicas.html" class="btn btn-outline-primary mt-3 align-self-start">Ver dicas</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Proteção Pessoal</h5>
+          <p class="card-text flex-grow-1">Boas práticas para proteger seus dados pessoais e a sua comunidade.</p>
+          <a href="dicas.html" class="btn btn-outline-primary mt-3 align-self-start">Aprender</a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- Bloco explicativo rápido -->
+  <section class="mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <h3>O que você encontra aqui</h3>
+        <p class="text-muted">Guias práticos, exemplos reais de golpes e instruções para denunciar fraudes. Conteúdo pensado para colaboradores e a comunidade local, com linguagem direta e ações aplicáveis.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="bg-light p-3 rounded shadow-sm">
+          <h6 class="mb-2">Acesso rápido</h6>
+          <ul class="list-unstyled mb-0">
+            <li><a href="dicas.html">Dicas de Proteção</a></li>
+            <li><a href="sobreOProjeto.html">Sobre o projeto</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
 
 <!-- Rodapé -->
 <footer class="bg-dark text-white pt-5">
